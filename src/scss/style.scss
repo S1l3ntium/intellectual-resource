@@ -1,0 +1,29 @@
+/*----*/
+
+@import "system/libs";
+@import "system/var";
+@import "system/font";
+@import "system/base";
+
+/*----*/
+
+@import "fonts";
+
+/*----*/
+
+@import "layouts/main";
+@import "layouts/header";
+@import "layouts/footer";
+
+/* Компоненты */
+
+//@import "components/form";
+//@import "components/popup";
+@import "components/button";
+
+/* Страницы/Блоки */
+
+@import "sections/entry";
+//@import "sections/work";
+//@import "sections/activities";
+//@import "sections/contacts";
