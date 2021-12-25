@@ -25,8 +25,8 @@
       align-items: flex-start;
       justify-content: center;
       flex-direction: column;
-      background: $bgPrimary url("../../img/bg/bg__orange.svg") right 0 bottom 0 no-repeat;
-      background-size: 50%;
+      background: $bgPrimary url("../../img/bg/bg__orange.svg") right no-repeat;
+      background-size: 50% 100%;
       padding: 70px 60px;
       margin-bottom: 30px;
    }

@@ -1,6 +1,6 @@
 .entry {
-   background: $secondary url(../../img/bg/bg__green.svg) right 0 top 0 no-repeat;
-   background-size: 100%;
+   background: $secondary url(../../img/bg/bg__green.svg) center no-repeat;
+   background-size: cover;
    padding: 170px 0;
    color: $white;
    &__container {
