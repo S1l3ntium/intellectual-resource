@@ -1,0 +1,26 @@
+.contacts {
+   background: $bgSecondary url(../../img/bg/bg__footer.svg) right 0 bottom 0 no-repeat;
+   background-size: 70%;
+   padding: 120px 0;
+   &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   h1 {
+      color: $white;
+      margin-bottom: 50px;
+   }
+   span {
+      &.green {
+         color: $primary;
+      }
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 44px;
+      color: $white;
+   }
+}
