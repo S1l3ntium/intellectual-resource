@@ -4,12 +4,22 @@
    justify-content: space-between;
    align-items: center;
    padding: 12px 18px;
-   width: 174px;
+   max-width: 174px;
    height: 41px;
    background-color: $bgPrimary;
    transition: all 0.5s ease-out;
+   word-wrap: normal;
    &:hover {
       background-color: $primary;
       transition: all 0.5s ease-out;
+   }
+   img {
+      margin-left: 8px;
+   }
+   @media screen and (max-width: 425px) {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: $primary;
    }
 }

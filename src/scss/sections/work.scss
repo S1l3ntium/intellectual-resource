@@ -1,6 +1,9 @@
 .work {
    background: $white;
    padding: 120px 0;
+   @media screen and (max-width: 425px) {
+      padding: 60px 0;
+   }
    &__container {
       display: flex;
       align-items: center;
@@ -10,6 +13,9 @@
    h2 {
       color: $bgPrimary;
       margin-bottom: 50px;
+      @media screen and (max-width: 425px) {
+         margin-bottom: 30px;
+      }
    }
    span {
       font-family: Montserrat;
@@ -19,6 +25,11 @@
       line-height: 26px;
       color: $white;
       margin-top: 50px;
+      @media screen and (max-width: 425px) {
+         font-size: 16px;
+         line-height: 22px;
+         margin-top: 30px;
+      }
    }
    &__item {
       display: flex;
@@ -28,9 +39,13 @@
       background: $bgPrimary url("../../img/bg/bg__orange.svg") right no-repeat;
       background-size: 50% 100%;
       padding: 70px 60px;
-      margin-bottom: 30px;
+      @media screen and (max-width: 768px) {
+         background-size: cover;
+         background-position: inherit;
+      }
    }
-   .no--img {
-      background: $bgPrimary;
-   }
+}
+.no--bg {
+   background: $bgPrimary;
+   margin-top: 30px;
 }
